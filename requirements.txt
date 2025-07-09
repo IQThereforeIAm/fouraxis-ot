@@ -1,0 +1,16 @@
+# Core
+torch==2.3.0          # already in the base image but pinned for clarity
+torch-sparse==0.6.18  # graph convolution kernels
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5
+tqdm>=4.66
+requests>=2.32
+
+# NLP
+spacy==3.7.2
+spacy-lookups-data==1.0  # extra linguistic tables
+
+# Plotting (for the figures)
+matplotlib>=3.9
+seaborn>=0.13
